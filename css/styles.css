@@ -63,6 +63,7 @@ button{
     letter-spacing: 0.04em;
     color: #2E2F42;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 button:hover{
