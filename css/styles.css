@@ -52,7 +52,7 @@ body{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 .link-header, .link-header:hover{
     color: #404BBF;
@@ -65,11 +65,18 @@ body{
 .address-link{
     font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
+.address-link, .address-link:hover{
+    color:#404BBF;
+}
+.address-link, .address-link:active{
+    color:#404BBF;
+}
 
 h1{
     font-weight: 700;
