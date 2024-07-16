@@ -54,11 +54,11 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.link-header, .link-header:hover{
+.link-header .link-header:hover{
     color: #404BBF;
 }
 
-.link-header, .link-header:active{
+.link-header .link-header:active{
     color: #404BBF;
 }
 
@@ -71,10 +71,10 @@ body{
     color: #434455;
 }
 
-.address-link, .address-link:hover{
+.address-link .address-link:hover{
     color:#404BBF;
 }
-.address-link, .address-link:active{
+.address-link .address-link:active{
     color:#404BBF;
 }
 
