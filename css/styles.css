@@ -47,12 +47,19 @@ body{
     color: #404BBF;
 }
 
-.a-header{
+.link-header{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #4D5AE5;
+}
+.link-header, .link-header:hover{
+    color: #404BBF;
+}
+
+.link-header, .link-header:active{
+    color: #404BBF;
 }
 
 .address-link{
