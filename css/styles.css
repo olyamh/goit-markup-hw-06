@@ -87,6 +87,10 @@ h1{
     color: #2E2F42;
 }
 
+.main-sec{
+    background-color: #2E2F42;
+}
+
 .main-page-title{
     font-weight: 700;
     font-size: 56px;
@@ -119,7 +123,7 @@ h2{
     letter-spacing: 0.02em;
     color: #434455;
 }
-button{
+.main-sec-button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -130,10 +134,10 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.main-sec-button:hover{
     background-color: #404BBF;
 }
-button:active{
+.main-sec-button:active{
     background-color: #404BBF;
 }
 
