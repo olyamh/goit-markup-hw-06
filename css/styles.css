@@ -60,9 +60,9 @@ body{
 }
 
 .link-header:active{
-    color: #404BBF;
+   color: #404BBF;
 }
-
+ 
 .address-link{
     font-weight: 400;
     font-size: 16px;
@@ -73,10 +73,10 @@ body{
 }
 
 .address-link:hover{
-    color:#404BBF;
+    color: #404BBF;
 }
 .address-link:active{
-    color:#404BBF;
+    color: #404BBF;
 }
 
 h1{
@@ -141,7 +141,7 @@ h2{
     background-color: #404BBF;
 }
  
-.team-title{
+.section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -168,6 +168,21 @@ h2{
     color: #434455;
 }
 
+.service-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.service-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .footer{
     background-color: #2E2F42;
 }
