@@ -32,6 +32,19 @@ p {
   margin: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -144,13 +157,13 @@ h1 {
 .hero {
   background-color: #2e2f42;
 }
-
-.hero-title {
-  width: 496px;
-  height: 120px;
-  padding-top: 188px;
-  padding-bottom: 48px;
+.hero-container {
   margin: 0 auto;
+  padding: 188px 0;
+}
+.hero-title {
+  max-width: 496px;
+  min-height: 120px;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -158,6 +171,26 @@ h1 {
   text-align: center;
   color: #ffffff;
   background-color: #2e2f42;
+  margin: 0 auto;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: block;
+  margin: 48px auto 0;
+}
+*/ .hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 h2 {
@@ -167,9 +200,7 @@ h2 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.title-hidden {
-  display: none;
-}
+
 .info-list {
   display: flex;
   margin: 0 auto;
@@ -192,28 +223,6 @@ h2 {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.hero-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-  border-radius: 4px;
-  padding: 16px 32px;
-}
-.hero-button-container {
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 188px;
-  align-items: center;
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #404bbf;
 }
 
 .section-team {
@@ -302,7 +311,11 @@ h2 {
 .footer {
   background-color: #2e2f42;
 }
-
+.footer-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-right: auto;
+}
 .span-logo-footer {
   font-weight: 700;
   font-size: 18px;
@@ -313,15 +326,18 @@ h2 {
 }
 .logo-footer {
   display: block;
-  padding-top: 100px;
+  min-width: 115px;
+  min-height: 24px;
   padding-bottom: 16px;
+  margin-right: auto;
 }
 .text-footer {
-  width: 264px;
+  max-width: 264px;
+  min-height: 72px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding-bottom: 100px;
+  margin-right: auto;
 }
