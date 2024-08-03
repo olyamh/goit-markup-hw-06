@@ -159,11 +159,10 @@ h1 {
 
 .hero {
   background-color: #2e2f42;
-}
-.hero-container {
   margin: 0 auto;
   padding: 188px 0;
 }
+
 .hero-title {
   max-width: 496px;
   min-height: 120px;
@@ -206,9 +205,11 @@ h2 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.benefits-container {
+
+.benefits {
   padding: 120px 0;
 }
+
 .benefits-head {
   padding-bottom: 8px;
 }
@@ -240,10 +241,9 @@ h2 {
 
 .section-team {
   background-color: #f4f4fd;
-}
-.team-container {
   padding: 120px 0;
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -293,7 +293,7 @@ h2 {
   color: #434455;
 }
 
-.container-service {
+.sec-portfolio {
   padding: 120px 0;
 }
 
@@ -312,6 +312,7 @@ h2 {
 .service-list-item {
   background-color: #ffffff;
   padding-bottom: 48px;
+  width: calc((100%-48px) / 3);
 }
 .service-title-descr {
   padding: 32px 16px;
@@ -337,11 +338,10 @@ h2 {
 }
 .footer {
   background-color: #2e2f42;
-}
-.footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .span-logo-footer {
   font-weight: 700;
   font-size: 18px;
