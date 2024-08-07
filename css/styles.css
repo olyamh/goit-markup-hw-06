@@ -182,10 +182,10 @@ h1 {
 }
 
 .hero {
-  background-color: linear-gradient(to top #2e2f42 #2e2f42);
-  background-image: url(../images/hero/people-office.jpg);
+  border-image: linear-gradient(to bottom, #2e2f42 0.3, #2e2f42 0.3),
+    url(../images/hero/people-office.jpg);
+  width: 1440px;
   background-color: #2e2f42;
-
   margin: 0 auto;
   padding: 188px 0;
 }
@@ -246,6 +246,17 @@ h2 {
 .info-list-item {
   width: calc((100% - 72px) / 4);
 }
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 100px;
+  background-color: #f4f4fd;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
 .info-title {
   font-weight: 500;
   font-size: 20px;
@@ -255,6 +266,13 @@ h2 {
   margin-bottom: 8px;
 }
 
+.social-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 16px 32px;
+  gap: 24px;
+}
 .info-discr {
   font-weight: 400;
   font-size: 16px;
@@ -384,4 +402,10 @@ h2 {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin-right: auto;
+}
+
+.footer-container {
+  display: flex;
+  margin: 0 auto;
+  gap: 120px;
 }
