@@ -468,3 +468,18 @@ h2 {
   margin: 0 auto;
   gap: 120px;
 }
+
+.social-link-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  min-width: 96px;
+  min-height: 24px;
+  margin-bottom: 16px;
+}
+
+.link-footer {
+  margin: 0 auto;
+}
