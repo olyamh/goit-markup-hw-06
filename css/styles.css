@@ -278,10 +278,6 @@ h2 {
   margin-bottom: 8px;
 }
 
-.social-link-container {
-  padding: 32px 0 32px;
-}
-
 .social-link-list {
   display: flex;
   justify-content: center;
@@ -302,11 +298,16 @@ h2 {
 }
 
 .social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
 }
 .social-link-icon {
   fill: #ffffff;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-link-border:hover {
@@ -370,6 +371,7 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .sec-portfolio {
@@ -501,5 +503,5 @@ h2 {
 }
 
 .social-link-container-footer {
-  margin: 0 auto;
+  margin: 0;
 }
