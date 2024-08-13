@@ -187,6 +187,9 @@ h1 {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  block-size: cover;
   width: 1440px;
   background-color: #2e2f42;
   margin: 0 auto;
@@ -258,6 +261,7 @@ h2 {
   background-color: #f4f4fd;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .info-title {
@@ -276,6 +280,20 @@ h2 {
   margin: 8px 16px 32px;
   gap: 24px;
 }
+.social-link-border {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link {
+  fill: #ffffff;
+}
+
 .info-discr {
   font-weight: 400;
   font-size: 16px;
@@ -353,6 +371,12 @@ h2 {
   background-color: #ffffff;
   width: calc((100% - 48px) / 3);
 }
+
+.service-list-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 .service-title-descr {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
