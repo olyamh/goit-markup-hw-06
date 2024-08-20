@@ -766,14 +766,14 @@ color: #2E2F42;
 .modal-cont-checkbox{
   margin-bottom: 24px;
 }
-/* .custom-lable-user-checkbox {
+.custom-lable-user-checkbox {
   cursor: pointer;
   font-weight: 400;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
-} */
+}
 .checkbox{
   outline: transparent;
 }
