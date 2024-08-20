@@ -587,10 +587,17 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.04em;
-text-align: center;
+text-align: left;
 color: #ffffff;
+position: relative;
 }
 
+.subscribe-icon{
+  position: absolute;
+  top: 8px;
+ right: 24px;
+   fill:#ffffff;
+}
 .footer-input::placeholder{
   font-weight: 400;
 font-size: 12px;
