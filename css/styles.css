@@ -711,19 +711,19 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color:  #4D5AE5;
 }
 
-.modal-input:focus+.model-icon,
-.modal-input:active+.model-icon
+.modal-input:focus+.modal-icon,
+.modal-input:active+.modal-icon
 {
-  stroke: #4D5AE5;
+  fill: #4D5AE5;
 }
-.model-icon {
+.modal-icon {
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   stroke: #111111;
   fill: none;
-  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-wrapper-comment {
